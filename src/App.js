@@ -1,4 +1,5 @@
 import "./App.css";
+import CardGenerator from "./CardGenerator";
 
 function App() {
   return (
@@ -10,17 +11,17 @@ function App() {
         <div className="card-board">
           <div className="row text-center">
             <div className="col-3">
-              <div className="cards">Cards</div>
-              <div className="card-1">Card 1</div>
+              <h5 className="cards">Cards</h5>
+              <CardGenerator />
             </div>
             <div className="col-3">
-              <div className="very-important">Very Important to Me</div>
+              <h5 className="very-important">Very Important to Me</h5>
             </div>
             <div className="col-3">
-              <div className="important">Important to Me</div>
+              <h5 className="important">Important to Me</h5>
             </div>
             <div className="col-3">
-              <div className="not-important">Not Important to Me</div>
+              <h5 className="not-important">Not Important to Me</h5>
             </div>
           </div>
         </div>

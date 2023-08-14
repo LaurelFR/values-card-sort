@@ -33,3 +33,13 @@
   background: blue;
   padding: 10px;
 }
+
+.card {
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.card p {
+  margin: 0;
+  font-size: 14px;
+}
