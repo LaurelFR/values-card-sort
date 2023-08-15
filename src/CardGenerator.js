@@ -1,4 +1,5 @@
 import React from "react";
+import SortCards from "./SortCards";
 
 export default function CardGenerator() {
   const cardList = [
@@ -115,6 +116,11 @@ export default function CardGenerator() {
             <div className="card" key={index}>
               <h5>{card.word}</h5>
               <p>{card.definition}</p>
+              <SortCards
+                word={card.word}
+                definition={card.definition}
+                index={index}
+              />
             </div>
           );
         } else {

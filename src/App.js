@@ -1,7 +1,8 @@
 import "./App.css";
 import CardGenerator from "./CardGenerator";
+import VeryImportant from "./VeryImportant";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <div className="container">
@@ -14,8 +15,9 @@ function App() {
               <h5 className="cards">Cards</h5>
               <CardGenerator />
             </div>
-            <div className="col-3">
-              <h5 className="very-important">Very Important to Me</h5>
+            <div className="col-3 very-important">
+              <h5>Very Important to Me</h5>
+              <VeryImportant />
             </div>
             <div className="col-3">
               <h5 className="important">Important to Me</h5>
@@ -29,5 +31,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
