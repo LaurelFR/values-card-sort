@@ -9,7 +9,7 @@ export default function App() {
         <div className="title">
           <h1>Values Card Sort</h1>
         </div>
-        <div className="card-board">
+        <div className="card-board overflow-auto">
           <div className="row text-center">
             <div className="col-3">
               <h5 className="cards">Cards</h5>
